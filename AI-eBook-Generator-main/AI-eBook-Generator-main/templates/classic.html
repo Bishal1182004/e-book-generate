@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBook - Classic</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            line-height: 1.5;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #fffef7;
+            color: #333;
+        }
+        h1 { font-size: 2.5em; margin-bottom: 1em; }
+        h2 { font-size: 2em; margin-top: 1.5em; }
+        p { margin-bottom: 1em; }
+        code {
+            background-color: #f4f4f4;
+            padding: 4px 6px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 12px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <markdown>
+        {{MARKDOWN_CONTENT}}
+    </markdown>
+    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+</body>
+</html>
